@@ -1,0 +1,210 @@
+.vh-100 {
+  height: 100vh;
+}
+
+.bg-neu-light {
+  background-color: var(--light-bg);
+}
+
+.bg-neu-blue {
+  background-color: var(--primary-light);
+}
+
+.bg-invisible {
+  background-color: var(--g-bg-color-disabled-light);
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
+.rounded-pill {
+  border-radius: 9999px;
+}
+
+.rounded-none {
+  border-radius: 0;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
+
+.left-1\/2 {
+  left: 50%;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.-right-1 {
+  right: -0.25rem;
+}
+
+.-translate-y-1\/2 {
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.translate-x-1\/2 {
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+.-translate-x-1\/2 {
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.-translate-1\/2 {
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.rotate-45 {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.shadow-none {
+  box-shadow: none !important;
+}
+
+.shadow-neu {
+  box-shadow: var(--box-shadow);
+}
+
+.shadow-neu-2 {
+  box-shadow: var(--box-shadow-2);
+}
+
+.text-center {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.neu-TextField-full>div {
+  width: 100%;
+}
+
+.transition-300 {
+  -webkit-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+}
+
+.transition-200 {
+  -webkit-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms;
+}
+
+.transition-100 {
+  -webkit-transition: 100ms;
+  -o-transition: 100ms;
+  transition: 100ms;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.object-contain {
+  object-fit: contain;
+}
+
+.opacity-60 {
+  opacity: 0.6;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  -webkit-appearance: none;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(108, 121, 119, 0.44);
+  border-radius: 1rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
